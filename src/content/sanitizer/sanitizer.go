@@ -443,6 +443,7 @@ func isVideoIframe(token html.Token) bool {
 		"www.youtube-nocookie.com": true,
 		"www.youtube.com":          true,
 		"api.yapfiles.ru":          true,
+		"coub.com":                 true,
 	}
 	if token.Data == "iframe" {
 		for _, attr := range token.Attr {
