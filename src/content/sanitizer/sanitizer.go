@@ -442,6 +442,7 @@ func isVideoIframe(token html.Token) bool {
 		"www.dailymotion.com":      true,
 		"www.youtube-nocookie.com": true,
 		"www.youtube.com":          true,
+		"api.yapfiles.ru":          true,
 	}
 	if token.Data == "iframe" {
 		for _, attr := range token.Attr {
